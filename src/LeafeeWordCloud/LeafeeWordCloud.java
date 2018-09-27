@@ -200,6 +200,7 @@ public class LeafeeWordCloud extends JPanel {
                     }
                 }
             }
+            bufferedreader.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
